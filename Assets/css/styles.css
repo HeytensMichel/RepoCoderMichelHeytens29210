@@ -51,6 +51,15 @@ footer {
     list-style-type: none;
 }
 
+li a:hover {
+    font-size: x-large;
+}
+
+ul {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 a:visited {
     text-decoration: none;
     color: black;
@@ -63,16 +72,18 @@ a {
 a:hover {
     text-decoration: none;
     color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 10px rgba(33,33,33,1.0);
 }
 
 a:focus {
     text-decoration: none;
     color: orange;
+    text-shadow: 10px 10px 10px rgba(33,33,33,1.0);
 }
 
 a:active {
     text-decoration: none;
-    color: teal;
+    color: orange;
 }
 
 .backgroundIndex {
