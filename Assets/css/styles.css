@@ -506,6 +506,8 @@ ol li {
         grid-row-gap: 20px;
         grid-column-gap: 50px;
         justify-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .gridContainer3 {
@@ -557,5 +559,17 @@ ol li {
     background-image: linear-gradient(rgba(131, 1, 1, 0.0), rgb(255, 0, 0, 0.7));
     overflow-x: hidden;
     font-size: large;
+}
+
+.imgBox {
+    transition: 0.8s;
+    width: fit-content;
+    box-shadow: 10px 10px 50px rgba(33,33,33,1);
+}
+
+.imgBox:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    text-shadow: 10px 10px 10px rgba(33,33,33,1.0);
 }
 }
