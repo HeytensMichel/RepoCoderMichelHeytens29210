@@ -15,11 +15,20 @@
         <div class="headerBar1" id="headerUpperBar">
             <nav class="responsiveNav">
                 <ul class="noBullet">
-                    <li><a href="./index.html"><img src="./Assets/img/hey10s.png" alt="hey10s"></a></li>
+                    <li><a href="./index.html"><img src="Assets/img/hey10s.png" alt="hey10s"></a></li>
                 </ul>
             </nav>
         </div>
-        <div>
+
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link" aria-current="page"
+                href="Pages/Servicios.html">SERVICIOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="Pages/galeria.html">GALERIA</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="Pages/booking.html">BOOKING</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="Pages/aboutme.html">SOBRE MI</a>
+        </nav>
+
+        <!--  <div>
             <nav class="responsiveNav2">
 
                 <ul class="headerBar2" id="noBullet">
@@ -30,31 +39,45 @@
 
                 </ul>
             </nav>
-        </div>
+        </div> -->
     </header>
     <section>
-        <p> Preparacion para bootstrap</p>
-
         <h1 class="h1Title">Fotografia especializada en motociclismo a tu alcance</h1>
-        <div class="boxIndex">
-            <img class="boxIndexImg" src="./Assets/img/SLIDEHOLDER.png" alt="Slideshow ilustrativo"></img>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Assets/img/GAL2.jpg" class="d-block w-100" alt="Slideshow">
+                </div>
+                <div class="carousel-item">
+                    <img src="Assets/img/SUMO2.jpg" class="d-block w-100" alt="Slideshow">
+                </div>
+                <div class="carousel-item">
+                    <img src="Assets/img/MOTO3.jpg" class="d-block w-100" alt="Slideshow">
+                </div>
+            </div>
         </div>
+
+        <!--<div class="boxIndex">
+            <img class="boxIndexImg" src="./Assets/img/SLIDEHOLDER.png" alt="Slideshow ilustrativo"></img>
+        </div>-->
 
         <h2 class="h2Title">¿Por que la fotografia en deportes de motor es costosa?</h2>
-        <div class="boxIndex">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/MqvV0ECi-Lk"
-                title="YouTube video player" frameborder="0" allow="accelerometer;
- autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MqvV0ECi-Lk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
     </section>
     <footer>
         <div class="footerContainer">
             <div class="projectInfo">
                 <h2>Creado por Michel Heytens</h2>
-                <p> Entrega: Full Responsive</p>
+                <p> Entrega: Bootstrap</p>
                 <a
                     href="https://www.coderhouse.com.uy/?utm_term=coderhouse&gclid=EAIaIQobChMI6fasqJqH9wIVTEFIAB3U_Ac1EAAYASAAEgKiaPD_BwE"><img
-                        src="./Assets/img/coderhouselogo.png" class="footerLogo"></a></li>
+                        src="Assets/img/coderhouselogo.png" class="footerLogo"></a></li>
             </div>
             <div class="altNav">
                 <p>Explora nuestras secciones!</p>
@@ -75,7 +98,7 @@
             </div>
         </div>
     </footer>
-    <script src="./Assets/js/bootstrap.bundle.min.js"></script>
+    <script src="Assets/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
