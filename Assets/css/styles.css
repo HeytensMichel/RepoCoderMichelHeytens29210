@@ -6,6 +6,11 @@
     grid-gap: 3%;
 }
 
+.botonGal {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
 .projectInfo {
     display: grid;
     text-align: center;
