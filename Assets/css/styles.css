@@ -6,6 +6,11 @@
     grid-gap: 3%;
 }
 
+.botonGal {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
 .projectInfo {
     display: grid;
     text-align: center;
@@ -331,11 +336,6 @@ y dentro, una imagen semi transparente como fondo del mismo boton, por ende dejo
         overflow-x: hidden;
         font-size: small;
     }
-    
-    iframe {
-        width: 80%;
-        height: 50%;
-    }
 
     .h1Title {
         display: flex;
@@ -566,11 +566,6 @@ ol li {
         margin-bottom: 10%;
         width: 100%;
         text-align: center;
-    }
-
-    iframe {
-        height: 100%;
-        width: 50%;
     }
 
     .h1Title {

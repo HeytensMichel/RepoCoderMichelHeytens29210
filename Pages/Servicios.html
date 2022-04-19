@@ -5,18 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../Assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./../Assets/css/styles.css">
     <title>HEY10S Servicios</title>
 </head>
-
-<style>
-    table,
-    th,
-    td {
-        border: 1px solid black;
-    }
-</style>
-
 
 <body class="backgroundServicios">
     <header>
@@ -27,9 +19,15 @@
                 </ul>
             </nav>
         </div>
-        <nav class="responsiveNav2">
 
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="Servicios.html">SERVICIOS</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="galeria.html">GALERIA</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="booking.html">BOOKING</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="aboutme.html">SOBRE MI</a>
+        </nav>
 
+        <!--<nav class="responsiveNav2">
             <ul class="headerBar2" id="noBullet">
                 <li><a href="Servicios.html">Servicios</a></li>
                 <li><a href="booking.html">Booking</a></li>
@@ -37,7 +35,7 @@
                 <li><a href="aboutme.html">About me</a></li>
 
             </ul>
-        </nav>
+        </nav> -->
     </header>
 
     <section>
@@ -69,39 +67,11 @@
 
         </article>
 
-        <table class="contentText2" id="tableResponsive">
-            <thead>
-                <tr>
-                    <th> </th>
-                    <th>Fotos de pista</th>
-                    <th>Fotos de Pits</th>
-                    <th>Fuera de pista</th>
-                    <th>Fotografias ejecutivas</th>
-                    <th>Personalizacion y planificado</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>Trackday</td>
-                    <td>Si</td>
-                    <td>Si</td>
-                    <td>Opcional</td>
-                    <td>No</td>
-                    <td>Opcional</td>
-                </tr>
-
-                <tr>
-                    <td>FIM</td>
-                    <td>Si</td>
-                    <td>Si</td>
-                    <td>Si</td>
-                    <td>Si</td>
-                    <td>Si</td>
-                </tr>
-
-            </tbody>
-        </table>
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
 
         <article>
             <p class="content">
@@ -148,7 +118,7 @@
         <div class="footerContainer">
             <div class="projectInfo">
                 <h2>Creado por Michel Heytens</h2>
-                <p> Entrega: Full Responsive</p>
+                <p> Entrega: Bootstrap</p>
                 <a
                     href="https://www.coderhouse.com.uy/?utm_term=coderhouse&gclid=EAIaIQobChMI6fasqJqH9wIVTEFIAB3U_Ac1EAAYASAAEgKiaPD_BwE"><img
                         src="./../Assets/img/coderhouselogo.png" class="footerLogo"></a></li>
@@ -172,6 +142,7 @@
             </div>
         </div>
     </footer>
+    <script src="./../Assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
