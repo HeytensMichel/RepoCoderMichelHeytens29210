@@ -19,118 +19,96 @@
                 </ul>
             </nav>
         </div>
-
-        <nav class="nav nav-pills flex-column flex-sm-row">
-            <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="Servicios.html">SERVICIOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="galeria.html">GALERIA</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="booking.html">BOOKING</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="aboutme.html">SOBRE MI</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Te encuentras en:  Galeria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Secciones
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="../index.html">Home</a></li>
+                      <li><a class="dropdown-item" href="Servicios.html">Servicios</a></li>
+                      <li><a class="dropdown-item" href="galeria.html">Galeria</a></li>
+                      <li><a class="dropdown-item" href="booking.html">Booking</a></li>
+                      <li><a class="dropdown-item" href="aboutme.html">About Me</a></li>
+                      
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-
     </header>
 
 
-    <section>
-
-        <div class="gridContainer">
-            <div class="child child-1">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/GAL1.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-2">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/GAL2.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-3">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/GAL3.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-3">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/MOP1.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-4">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/MOP2.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-5">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/MOP3.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-6">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/MOTO1.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-7">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/MOTO2.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-9">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/MOTO3.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-10">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/LEIB1.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-11">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/LEIB2.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-12">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/DET2.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-13">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/SUMO1.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-14">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/SUMO2.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-15">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/SUMO3.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-16">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/DET1.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-17">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/LEIB3.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-            <div class="child child-18">
-                <div class="imgBox">
-                    <img class="galleryImg" src="./../Assets/img/DET3.jpg" alt="Imagen de la galeria">
-                </div>
-            </div>
-
+    <div class="row">
+        <div class="col-sm-6 col-md-4 mb-3">
+          <img src="./../Assets/img/GAL1.jpg" alt="" class="fluid img-thumbnail">      
+        </div>
+        <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/GAL2.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/GAL3.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/MOP1.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/MOP2.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/MOP3.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/LEIB1.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/DET2.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/LEIB2.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/SUMO1.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/SUMO2.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/SUMO3.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/MOTO1.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/MOTO2.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/MOTO3.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/DET1.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/LEIB3.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+          <div class="col-sm-6 col-md-4 mb-3">
+            <img src="./../Assets/img/DET3.jpg" alt="" class="fluid img-thumbnail">      
+          </div>
+    </div>
 
         </div>
-    </section>
     <div class="botonGal">
         <div class="d-grid gap-2 col-6 mx-auto">
-            <button class="btn btn-primary" type="button">Me gusta el contenido!</button>
-            <button class="btn btn-primary" type="button">No me gusta el contenido!</button>
+            <button class="btn btn-outline-dark" type="button">Me gusta el contenido!</button>
+            <button class="btn btn-outline-dark" type="button">No me gusta el contenido!</button>
         </div>
     </div>
 
@@ -140,9 +118,9 @@
             <div class="projectInfo">
                 <h2>Creado por Michel Heytens</h2>
                 <p> Entrega: Segunda entrega del proyecto final.</p>
-                <a
+                <a target="_blank"
                     href="https://www.coderhouse.com.uy/?utm_term=coderhouse&gclid=EAIaIQobChMI6fasqJqH9wIVTEFIAB3U_Ac1EAAYASAAEgKiaPD_BwE"><img
-                        src="./../Assets/img/coderhouselogo.png" class="footerLogo"></a></li>
+                        src="./../Assets/img/coderhouselogo.png" class="footerLogo" id="imgBox"></a></li>
             </div>
             <div class="altNav">
                 <p>Explora nuestras secciones!</p>

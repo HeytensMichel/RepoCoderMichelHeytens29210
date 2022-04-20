@@ -23,7 +23,7 @@
 footer { 
  width: 100%;
  height: auto;
- background-image: linear-gradient(rgba(131, 1, 1, 0.0), rgb(255, 0, 0, 0.7));   
+ background-image: linear-gradient(rgba(131, 1, 1, 0.9), rgba(255, 0, 0, 0.452));   
 }
 
 .secondNav  {
@@ -198,7 +198,7 @@ y dentro, una imagen semi transparente como fondo del mismo boton, por ende dejo
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
-    background-image: linear-gradient(rgba(255, 0, 0, 0.7), rgb(131, 1, 1, 0.0));
+    background-image: linear-gradient(rgba(255, 0, 0, 0.7), rgb(131, 1, 1, 0.9));
     width: 100%;
     margin-bottom: 2%;
 }
@@ -218,7 +218,8 @@ y dentro, una imagen semi transparente como fondo del mismo boton, por ende dejo
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around
+    justify-content: space-around;
+    overflow-x: hidden;
 }
 
 .h1Title {
@@ -282,6 +283,7 @@ y dentro, una imagen semi transparente como fondo del mismo boton, por ende dejo
 }
 
 @media screen and (min-width: 320px) {
+
     .footerContainer {
         display: grid;
         grid-template-rows: 1fr;
@@ -320,9 +322,8 @@ y dentro, una imagen semi transparente como fondo del mismo boton, por ende dejo
         flex-direction: row;
         justify-content: center;
         align-self: center;
-        background-image: linear-gradient(rgba(255, 0, 0, 0.7), rgb(131, 1, 1, 0.0));
+        background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgb(131, 1, 1, 0.9));
         width: 100%;
-        margin-bottom: 2%;
     }
 
     .footerBar {
@@ -425,17 +426,14 @@ ol li {
     width: 400px;
     justify-items: center;
 }
-.imgBox {
+#imgBox {
     transition: 0.8s;
-    width: fit-content;
-    box-shadow: 10px 10px 50px rgba(33,33,33,1);
+    width: 30%;
+    margin-top: 5%;
 }
 
-.imgBox:hover {
+#imgBox:hover {
     transform: scale(1.5);
-    z-index: 2;
-    text-shadow: 10px 10px 10px rgba(33,33,33,1.0);
-
 }
 
 }
@@ -483,7 +481,6 @@ ol li {
         flex-direction: row;
         justify-content: space-around;
         justify-items: center;
-        margin-bottom: 10%;
         width: 100%;
         text-align: center;
     }
@@ -499,23 +496,13 @@ ol li {
         justify-content: center;
         align-self: center;
         margin-bottom: 2%;
-        background-image: linear-gradient(rgba(131, 1, 1, 0.0), rgb(255, 0, 0, 0.7));
+        background-image: linear-gradient(rgba(131, 1, 1, 0.7), rgb(255, 0, 0, 0.3));
         overflow-x: hidden;
         font-size: medium;
     }
 
-    .imgBox {
-        transition: 0.8s;
-        width: fit-content;
-        box-shadow: 10px 10px 50px rgba(33,33,33,1);
-    }
-    
-    .imgBox:hover {
-        transform: scale(1.5);
-        z-index: 2;
-        text-shadow: 10px 10px 10px rgba(33,33,33,1.0);
 
-}
+
 }
 
 @media screen and (min-width: 1300px) {
@@ -563,7 +550,6 @@ ol li {
         flex-direction: row;
         justify-content: space-around;
         justify-items: center;
-        margin-bottom: 10%;
         width: 100%;
         text-align: center;
     }
@@ -589,22 +575,10 @@ ol li {
     justify-content: center;
     align-self: center;
     margin-bottom: 2%;
-    background-image: linear-gradient(rgba(131, 1, 1, 0.0), rgb(255, 0, 0, 0.7));
+    background-image: linear-gradient(rgba(131, 1, 1, 0.7), rgb(255, 0, 0, 0.3));
     overflow-x: hidden;
     font-size: large;
 }
 
-.imgBox {
-    transition: 0.8s;
-    width: fit-content;
-    box-shadow: 10px 10px 50px rgba(33,33,33,1);
-}
 
-.imgBox:hover {
-    transform: scale(1.5);
-    z-index: 2;
-    text-shadow: 10px 10px 10px rgba(33,33,33,1.0);
-
-
-}
 }
