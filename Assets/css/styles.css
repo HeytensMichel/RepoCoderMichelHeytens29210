@@ -94,42 +94,24 @@ footer {
       font-size: x-large; }
 
 /* backgrounds */
-.backgroundIndex {
+.background, .background--servicios, .background--booking, .background--galeria, .background--aboutme {
   background-image: url(./../img/Indexbcg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  align-content: center;
-  display: block;
   overflow-x: hidden; }
 
-.backgroundServicios {
-  background-image: url(./../img/serviciosbcg.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow-x: hidden; }
+.background--servicios {
+  background-image: url(./../img/serviciosbcg.jpg); }
 
-.backgroundBooking {
-  background-image: url(./../img/bookingbcg.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow-x: hidden; }
+.background--booking {
+  background-image: url(./../img/bookingbcg.jpg); }
 
-.backgroundGaleria {
-  background-image: url(./../img/galeriabcg.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow-x: hidden; }
+.background--galeria {
+  background-image: url(./../img/galeriabcg.jpg); }
 
-.backgroundAboutMe {
-  background-image: url(./../img/aboutmebcg.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow-x: hidden; }
+.background--aboutme {
+  background-image: url(./../img/aboutmebcg.jpg); }
 
 /* Media Queries */
 @media screen and (min-width: 320px) {

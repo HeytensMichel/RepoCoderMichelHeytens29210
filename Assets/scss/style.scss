@@ -145,46 +145,36 @@ footer {
 
 /* backgrounds */
 
-.backgroundIndex {
+.background {
     background-image: url(./../img/Indexbcg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    align-content: center;
-    display: block;
     overflow-x: hidden;
 }
 
-.backgroundServicios {
+.background--servicios {
+    @extend .background;
     background-image: url(./../img/serviciosbcg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
+    
 }
 
-.backgroundBooking {
+.background--booking {
+    @extend .background;
     background-image: url(./../img/bookingbcg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
+    
 }
 
-.backgroundGaleria {
+.background--galeria {
+    @extend .background;
     background-image: url(./../img/galeriabcg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
+    
 }
 
-.backgroundAboutMe {
+.background--aboutme {
+    @extend .background;
     background-image: url(./../img/aboutmebcg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
+   
 }
 
 /* Media Queries */
