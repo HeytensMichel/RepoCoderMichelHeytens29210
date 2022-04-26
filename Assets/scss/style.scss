@@ -15,12 +15,12 @@ body {
     
         &:visited {
             text-decoration: none;
-            color: black;
+            color: map-get($map: $mapacolores, $key: negro);
         }
     
         &:hover {
             text-decoration: none;
-            color: map-get($map: $mapacolores, $key: blanco );
+            color: map-get($map: $mapacolores, $key: blanco);
             text-shadow: 10px 10px 10px rgba(33, 33, 33, 1.0);
         }
     
