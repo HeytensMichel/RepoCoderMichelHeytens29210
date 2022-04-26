@@ -157,3 +157,14 @@ footer {
 .btn--aboutme {
   background-color: #F07470;
   border-color: #eb4742; }
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1%;
+  font-size: x-large;
+  background-color: #212529; }
+  .box:hover {
+    color: #e6e6e6;
+    transition: 3s; }
