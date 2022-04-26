@@ -1,13 +1,67 @@
+/* imports */
+/* Elementos de cuerpo*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 6%;
   margin-right: 6%;
   overflow-x: hidden; }
+  body a {
+    text-decoration: none; }
+    body a:visited {
+      text-decoration: none;
+      color: black; }
+    body a:hover {
+      text-decoration: none;
+      color: #eec9c9;
+      text-shadow: 10px 10px 10px #212121; }
+    body a:focus {
+      text-decoration: none;
+      color: yellow;
+      text-shadow: 10px 10px 10px #212121; }
+    body a:active {
+      text-decoration: none;
+      color: orange; }
+  body .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative; }
+    body .iframe-container iframe {
+      border: 1;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%; }
+
+header .headerBar1 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.452), rgba(131, 1, 1, 0.9));
+  width: 100%;
+  margin-bottom: 2%; }
+
+header .responsiveNav {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: nowrap; }
+
+header .noBullet {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-self: center; }
+
+header #noBullet {
+  list-style-type: none; }
 
 footer {
   width: 100%;
   height: auto;
-  background-image: linear-gradient(rgba(255, 0, 0, 0.452), rgba(131, 1, 1, 0.9)); }
+  background-image: linear-gradient(rgba(131, 1, 1, 0.9), rgba(255, 0, 0, 0.452)); }
   footer .footerContainer {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -19,85 +73,27 @@ footer {
     text-align: center; }
   footer .footerLogo {
     width: 30%; }
-
-.headerBar1 {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: center;
-  background-image: linear-gradient(rgba(255, 0, 0, 0.452), rgba(131, 1, 1, 0.9));
-  width: 100%;
-  margin-bottom: 2%; }
-
-.navPad {
-  padding-top: 5px;
-  padding-bottom: 5px; }
-
-.altNav {
-  text-align: center; }
-
-.altNav p {
-  font-size: x-large; }
-
-.responsiveNav {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  flex-wrap: nowrap; }
-
-.noBullet {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  align-self: center; }
-
-#noBullet {
-  list-style-type: none; }
-
-ul {
-  margin-left: 0px;
-  margin-right: 0px;
-  list-style: none; }
-  ul li:hover {
+  footer .navPad {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  footer .altNav {
+    text-align: center; }
+  footer .altNav p {
     font-size: x-large; }
+  footer #imgBox {
+    transition: 0.8s;
+    width: 30%;
+    margin-top: 5%; }
+    footer #imgBox:hover {
+      transform: scale(1.5); }
+  footer ul {
+    margin-left: 0px;
+    margin-right: 0px;
+    list-style: none; }
+    footer ul li:hover {
+      font-size: x-large; }
 
-a {
-  text-decoration: none; }
-  a:visited {
-    text-decoration: none;
-    color: black; }
-  a:hover {
-    text-decoration: none;
-    color: white;
-    text-shadow: 10px 10px 10px #212121; }
-  a:focus {
-    text-decoration: none;
-    color: orange;
-    text-shadow: 10px 10px 10px #212121; }
-  a:active {
-    text-decoration: none;
-    color: orange; }
-
-.iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative; }
-  .iframe-container iframe {
-    border: 1;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%; }
-
-#imgBox {
-  transition: 0.8s;
-  width: 30%;
-  margin-top: 5%; }
-  #imgBox:hover {
-    transform: scale(1.5); }
-
+/* backgrounds */
 .backgroundIndex {
   background-image: url(./../img/Indexbcg.jpg);
   background-position: center;
@@ -135,6 +131,7 @@ a {
   background-repeat: no-repeat;
   overflow-x: hidden; }
 
+/* Media Queries */
 @media screen and (min-width: 320px) {
   .footerContainer {
     display: grid;
@@ -162,3 +159,19 @@ a {
     align-content: space-around;
     padding: 3%;
     grid-gap: 3%; } }
+
+.btn--servicios {
+  background-color: #EA4C46;
+  border-color: #e3211a; }
+
+.btn--booking {
+  background-color: #F07470;
+  border-color: #eb4742; }
+
+.btn--galeria {
+  background-color: #EA4C46;
+  border-color: #e3211a; }
+
+.btn--aboutme {
+  background-color: #F07470;
+  border-color: #eb4742; }
