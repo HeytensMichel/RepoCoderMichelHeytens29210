@@ -9,9 +9,11 @@ body {
     margin-left: 6%;
     margin-right: 6%;
     overflow-x: hidden;
+    font-size: x-large;
 
     a {
         text-decoration: none;
+        color: #000000;
     
         &:visited {
             text-decoration: none;
@@ -92,17 +94,13 @@ footer {
         display: grid;
         grid-template-columns: 2fr 1fr;
         align-content: space-evenly;
-        padding: 3%;
+        padding: 0.5%;
         grid-gap: 3%;
     }
 
     .projectInfo {
         display: grid;
         text-align: center;
-    }
-
-    .footerLogo {
-        width: 30%;
     }
 
     .navPad {
@@ -117,16 +115,6 @@ footer {
     .altNav p {
         font-size: x-large;
     
-    }
-
-    #imgBox {
-        transition: 0.8s;
-        width: 30%;
-        margin-top: 5%;
-    
-        &:hover {
-            transform: scale(1.5);
-        }
     }
 
     ul {
@@ -196,6 +184,20 @@ footer {
 
     }
 
+    .footerLogo {
+        width: 50%;
+    }
+
+    #imgBox {
+        transition: 0.8s;
+        width: 50%;
+        margin-top: 1%;
+    
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -205,6 +207,20 @@ footer {
         align-content: space-around;
         padding: 3%;
         grid-gap: 3%;
+    }
+
+    .footerLogo {
+        width: 30%;
+    }
+
+    #imgBox {
+        transition: 0.8s;
+        width: 30%;
+        margin-top: 1%;
+    
+        &:hover {
+            transform: scale(1.5);
+        }
     }
 }
 
@@ -216,12 +232,27 @@ footer {
         padding: 3%;
         grid-gap: 3%;
     }
+
+    .footerLogo {
+        width: 10%;
+    }
+
+    #imgBox {
+        transition: 0.8s;
+        width: 10%;
+        margin-top: 1%;
+    
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
 }
 
 @each $item, $color in $mapafooter {
     .btn--#{$item}{
         background-color: $color;
         border-color: darken($color: $color, $amount: 10);
+        
     }
 }
 
